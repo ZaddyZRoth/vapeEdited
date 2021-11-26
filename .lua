@@ -146,7 +146,7 @@ function lib:Window(text, preset, closebind)
             if io.KeyCode == CloseBind then
                 if uitoggled == false then
                     Main:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
-                    uitoggled = true
+                    uitoggled = false
                     wait(.5)
                     knixhub.Enabled = false
                 else
@@ -158,7 +158,7 @@ function lib:Window(text, preset, closebind)
                         true
                     )
                     knixhub.Enabled = true
-                    uitoggled = true
+                    uitoggled = false
                 end
             end
         end
