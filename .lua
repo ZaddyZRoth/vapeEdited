@@ -155,7 +155,7 @@ function lib:Window(text, preset, closebind)
                         Enum.EasingDirection.Out,
                         Enum.EasingStyle.Quart,
                         .6,
-                        true
+                        false
                     )
                     knixhub.Enabled = true
                     uitoggled = false
