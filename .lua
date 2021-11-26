@@ -147,6 +147,7 @@ function lib:Window(text, preset, closebind)
                 if uitoggled == false then
                     Main.Visible = true
                 else
+                    uitoggle == true then
                     Main.Visible = false
                 end
             end
